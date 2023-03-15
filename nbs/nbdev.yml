@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "talking-machine-learning"
+  site-url: "https://dimasmufid.github.io/talking-machine-learning"
+  description: "Let's having fun in learn machine learning!"
+  repo-branch: main
+  repo-url: "https://github.com/dimasmufid/talking-machine-learning"
