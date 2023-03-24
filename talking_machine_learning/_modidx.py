@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://dimasmufid.github.io',
                 'git_url': 'https://github.com/dimasmufid/talking-machine-learning',
                 'lib_path': 'talking_machine_learning'},
-  'syms': {'talking_machine_learning.core': {'talking_machine_learning.core.foo': ('core.html#foo', 'talking_machine_learning/core.py')}}}
+  'syms': { 'talking_machine_learning.core': {'talking_machine_learning.core.foo': ('core.html#foo', 'talking_machine_learning/core.py')},
+            'talking_machine_learning.talking_machine_learning': { 'talking_machine_learning.talking_machine_learning.foo': ( 'core.html#foo',
+                                                                                                                              'talking_machine_learning/talking_machine_learning.py'),
+                                                                   'talking_machine_learning.talking_machine_learning.say_hello': ( 'core.html#say_hello',
+                                                                                                                                    'talking_machine_learning/talking_machine_learning.py')}}}
